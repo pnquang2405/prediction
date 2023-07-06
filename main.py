@@ -19,7 +19,7 @@ name_encoder = ['hải châu', 'hồng ngọc mai', 'kim sa tùng', 'linh sam',
 async def load_model():
     global model
     try:
-        model = joblib.load('/Users/laptoptt/Documents/Subject/data_set/model/model.pkl')
+        model = joblib.load('./model.pkl')
         if model is not None:
             print("Đọc mô hình từ tệp joblib thành công!")
         else:
