@@ -67,7 +67,7 @@ import numpy as np
 #     pickle.dump(lr, file)
 
 #Tải mô hình từ file
-with open('/Users/laptoptt/Documents/Subject/data_set/model/model.pkl', 'rb') as file:
+with open('./model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Khai báo map
