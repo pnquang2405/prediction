@@ -1,7 +1,4 @@
-from typing import List, Dict
 from fastapi import FastAPI, BackgroundTasks
-import pickle
-import requests
 from pydantic import BaseModel
 import numpy as np
 import uvicorn
